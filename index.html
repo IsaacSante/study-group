@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mock Interview Study Group (System Design)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: #ffffff;
+    color: #000000;
+    font-family: 'DotGothic16', monospace;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  body {
+    min-height: 100vh;
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  header { border-bottom: 2px solid #000; padding-bottom: 12px; }
+  h1 {
+    font-size: 34px;
+    letter-spacing: 1px;
+  }
+  .sub {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  .ascii-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+    white-space: pre;
+    line-height: 1.1;
+  }
+  .ascii-row pre { font-family: 'DotGothic16', monospace; }
+  .desc {
+    font-size: 16px;
+    max-width: 900px;
+  }
+  h2 {
+    font-size: 20px;
+    border-top: 1px dashed #000;
+    border-bottom: 1px dashed #000;
+    padding: 4px 0;
+    margin-top: 4px;
+  }
+  .questions {
+    columns: 2;
+    column-gap: 60px;
+    font-size: 16px;
+    flex: 1;
+  }
+  .questions ul { list-style: none; }
+  .questions li {
+    padding: 2px 0;
+    break-inside: avoid;
+  }
+  .questions li::before {
+    content: "> ";
+  }
+  footer {
+    border-top: 2px solid #000;
+    padding-top: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  a { color: #000; text-decoration: underline; }
+  a:hover { background: #000; color: #fff; }
+  .hl { background: #fff176; padding: 0 2px; }
+  .blink {
+    animation: blink 1s step-end infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (max-width: 640px) {
+    .questions { columns: 1; }
+    h1 { font-size: 24px; }
+    body { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Mock Interview Study Group <span class="blink">_</span></h1>
+  <div class="sub">// system design &amp; dsa </div>
+</header>
+
+<div class="ascii-row">
+<pre>
+  ___
+ (o o)
+ /|_|\   hello friend
+</pre>
+<pre>
+   __
+  (..)   whiteboard
+ c(  )o  time
+</pre>
+<pre>
+  ^_^
+ /|||\   
+ /   \
+</pre>
+</div>
+
+<p class="desc">
+Partner up and learn a system in depth. Meet after a week, flip a coin to see who interviews and who gets interviewed. Low stakes simulation and easy learning goals. Open to DSA topics too &mdash; <span class="hl">Sliding Window</span>, <span class="hl">Arrays &amp; Hash Maps</span>, <span class="hl">Two Pointers</span>, <span class="hl">Intervals</span>, <span class="hl">Sorting</span>, <span class="hl">Stacks</span>, Graphs, Heaps, Binary Search, DP.
+</p>
+
+<h2>[ system design topics ]</h2>
+
+<div class="questions">
+  <ul>
+    <li>Twitter / X</li>
+    <li>Web Crawler</li>
+    <li>URL Shortener (TinyURL)</li>
+    <li>YouTube / Netflix</li>
+    <li>Uber / Lyft</li>
+    <li>WhatsApp / Messenger</li>
+    <li>Instagram</li>
+    <li>Dropbox / Google Drive</li>
+    <li>Google Maps</li>
+    <li>Ticketmaster</li>
+    <li>Yelp</li>
+    <li>Search Autocomplete</li>
+    <li>Rate Limiter</li>
+    <li>Distributed Cache</li>
+    <li>Key-Value Store</li>
+    <li>Notification System</li>
+    <li>News Feed</li>
+    <li>Pastebin</li>
+    <li>Reddit</li>
+    <li>Slack</li>
+    <li>Zoom</li>
+    <li>Ad Click Aggregator</li>
+    <li>Payment System</li>
+    <li>Parking Lot</li>
+    <li>Distributed Message Queue</li>
+    <li>Stock Exchange</li>
+    <li>Typeahead Suggestions</li>
+    <li>Leaderboard</li>
+  </ul>
+</div>
+
+<footer>
+  <div>
+    <pre style="display:inline-block; vertical-align: middle;">(&#94;&#95;&#94;)&#47;</pre>
+    &nbsp;contact &mdash;
+    email: <a href="mailto:isaacsantebotero@gmail.com">isaacsantebotero@gmail.com</a>
+    &nbsp;&middot;&nbsp;
+    insta: <a href="https://instagram.com/sante.isaac" target="_blank" rel="noopener">sante.isaac</a>
+  </div>
+  <div>[ :-) ]</div>
+</footer>
+
+</body>
+</html>
